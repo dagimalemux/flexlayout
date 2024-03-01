@@ -58,7 +58,7 @@ footer {
 
 @media only screen and (min-width: 800px) {
   body {
-    width: 900px;
+    width: 800px;
   }
 
   .blogpost {
