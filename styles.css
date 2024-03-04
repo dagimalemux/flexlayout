@@ -12,7 +12,9 @@ footer {
   display: flex;
 }
 
-
+.header-navigation{
+  justify-content: end;
+}
 .main-banner {
   background-color: lightsalmon;
   min-height: 100px;
