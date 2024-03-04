@@ -47,8 +47,14 @@ header{
 .blogpost {
   min-height: 100px;
   border: 1px solid black;
+  padding:20px;
 }
-
+.blogpost-thumbnail{
+  width: 100%;
+}
+.blogpost-preview, .blogpost-title{
+  margin: 10px 0;
+}
 .contact-form {
   background-color: lightyellow;
   min-height: 100px;
