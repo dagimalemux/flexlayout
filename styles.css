@@ -42,6 +42,8 @@ header{
 
 .blogposts {
   background-color: lightblue;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .blogpost {
