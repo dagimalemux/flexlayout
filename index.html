@@ -72,23 +72,46 @@
         </div>
       </section>
       <section class="contact-form">
-        <div class="form-flex-item">
-          <label class="form-label">
-            Name
-            <input 
-              type="text" 
-              name="name" 
-              class="form-input" />
-          </label>
-        </div>
+        <form 
+   action="#" 
+   method="POST" 
+   class="contact-form">
+  <div class="form-flex-item">
+    <label class="form-label">
+      Name
+      <input 
+         type="text" 
+         name="name" 
+         class="form-input" />
+    </label>
+  </div>
+  <div class="form-flex-item">
+    <label class="form-label">
+      Email
+      <input 
+         type="email" 
+         name="email" 
+         class="form-input" />
+    </label>
+  </div>
+  <div class="form-flex-item">
+    <label class="form-label">
+      Message
+      <textarea name="message" class="form-textarea"></textarea>
+    </label>
+  </div>
+  <div class="form-flex-item">
+    <button class="btn-send">
+      Send
+    </button>
+  </div>   
+</form>
       </section>      
     </main>
-    <footer>
-         <a href="#" class="nav-link">Home</a>
-         <a href="#" class="nav-link">Contact</a>
-         <a href="#" class="nav-link">About</a>
-    </footer> 
-
-
+    <footer class="footer">
+      <a href="#home" class="footer-link">Home</a>
+      <a href="#posts" class="footer-link">Blog</a> 
+      <a href="#contact" class="footer-link">Contact</a>
+    </footer>
   </body>
 </html>
