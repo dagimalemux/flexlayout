@@ -44,6 +44,11 @@ header{
   background-color: lightblue;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
+}
+.blogpost.highlighted{
+  order: -1;
+  background-color: lightskyblue;
 }
 
 .blogpost {
@@ -73,6 +78,28 @@ footer{
   height: 100px;
   align-items: center;
 
+}
+.form-label {
+  margin: 20px;
+  display: block;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.form-input {
+  display: block;
+  padding: 6px;
+}
+.form-label {
+  margin: 20px;
+  display: block;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.form-input {
+  display: block;
+  padding: 6px;
 }
 
 @media only screen and (min-width: 600px) {
